@@ -47,7 +47,6 @@ body {
 }
 #galaxy .stars-back {
 	background: url('../img/back.png');
-	animation: orbit-clock-wise 440s infinite linear;
 	-webkit-animation: orbit-clock-wise 440s infinite linear;
 	-moz-animation: orbit-clock-wise 440s infinite linear;
 	-ms-animation: orbit-clock-wise 440s infinite linear;
@@ -55,7 +54,6 @@ body {
 }
 #galaxy .stars-middle {
 	background: url('../img/middle.png');
-	animation: orbit-counter-clock-wise 360s infinite linear;
 	-webkit-animation: orbit-counter-clock-wise 360s infinite linear;
 	-moz-animation: orbit-counter-clock-wise 360s infinite linear;
 	-ms-animation: orbit-counter-clock-wise 360s infinite linear;
@@ -63,7 +61,6 @@ body {
 }
 #galaxy .stars-front {
 	background: url('../img/front.png');
-	animation: orbit-clock-wise 160s infinite linear;
 	-webkit-animation: orbit-clock-wise 160s infinite linear;
 	-moz-animation: orbit-clock-wise 160s infinite linear;
 	-ms-animation: orbit-clock-wise 160s infinite linear;
@@ -108,14 +105,4 @@ body {
 }
 @-o-keyframes orbit-counter-clock-wise {
 	from { -o-transform: rotate(360deg); } to { -o-transform: rotate(0deg); }
-}
-@keyframes orbit-clock-wise {
-	0% { opacity: 0.4; transform: rotate(0deg); }
-	2% { opacity: 0.8; }
-	4% { opacity: 0.2; }
-	5% { opacity: 0.8; }
-	100% { opacity: 0.4; transform: rotate(360deg); }
-}
-@keyframes orbit-counter-clock-wise {
-	from { transform: rotate(360deg); } to { transform: rotate(0deg); }
 }
