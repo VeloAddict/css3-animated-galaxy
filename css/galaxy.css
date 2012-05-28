@@ -86,6 +86,16 @@ body {
 @-moz-keyframes orbit-counter-clock-wise {
 	from { -moz-transform: rotate(360deg); } to { -moz-transform: rotate(0deg); }
 }
+/*@-o-keyframes orbit-clock-wise {
+	0% { opacity: 0.4; -o-transform: rotate(0deg); }
+	2% { opacity: 0.8; }
+	4% { opacity: 0.2; }
+	5% { opacity: 0.8; }
+	100% { opacity: 0.4; -o-transform: rotate(360deg); }
+}
+@-o-keyframes orbit-counter-clock-wise {
+	from { -o-transform: rotate(360deg); } to { -o-transform: rotate(0deg); }
+}*/
 @-ms-keyframes orbit-clock-wise {
 	0% { opacity: 0.4; -ms-transform: rotate(0deg); }
 	2% { opacity: 0.8; }
@@ -95,14 +105,4 @@ body {
 }
 @-ms-keyframes orbit-counter-clock-wise {
 	from { -ms-transform: rotate(360deg); } to { -ms-transform: rotate(0deg); }
-}
-@-o-keyframes orbit-clock-wise {
-	0% { opacity: 0.4; -o-transform: rotate(0deg); }
-	2% { opacity: 0.8; }
-	4% { opacity: 0.2; }
-	5% { opacity: 0.8; }
-	100% { opacity: 0.4; -o-transform: rotate(360deg); }
-}
-@-o-keyframes orbit-counter-clock-wise {
-	from { -o-transform: rotate(360deg); } to { -o-transform: rotate(0deg); }
 }
