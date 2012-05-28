@@ -50,21 +50,21 @@ body {
 	-webkit-animation: orbit-clock-wise 440s infinite linear;
 	-moz-animation: orbit-clock-wise 440s infinite linear;
 	-o-animation: orbit-clock-wise 440s infinite linear;
-	-ms-animation: orbit-clock-wise 440s infinite linear;
+	-ms-animation-name: orbit-clock-wise 440s infinite linear;
 }
 #galaxy .stars-middle {
 	background: url('../img/middle.png');
 	-webkit-animation: orbit-counter-clock-wise 360s infinite linear;
 	-moz-animation: orbit-counter-clock-wise 360s infinite linear;
 	-o-animation: orbit-counter-clock-wise 360s infinite linear;
-	-ms-animation: orbit-counter-clock-wise 360s infinite linear;
+	-ms-animation-name: orbit-counter-clock-wise 360s infinite linear;
 }
 #galaxy .stars-front {
 	background: url('../img/front.png');
 	-webkit-animation: orbit-clock-wise 160s infinite linear;
 	-moz-animation: orbit-clock-wise 160s infinite linear;
 	-o-animation: orbit-clock-wise 160s infinite linear;
-	-ms-animation: orbit-clock-wise 160s infinite linear;
+	-ms-animation-name: orbit-clock-wise 160s infinite linear;
 }
 @-webkit-keyframes orbit-clock-wise {
 	0% { opacity: 0.4; -webkit-transform: rotate(0deg); }
@@ -86,7 +86,7 @@ body {
 @-moz-keyframes orbit-counter-clock-wise {
 	from { -moz-transform: rotate(360deg); } to { -moz-transform: rotate(0deg); }
 }
-/*@-o-keyframes orbit-clock-wise {
+@-o-keyframes orbit-clock-wise {
 	0% { opacity: 0.4; -o-transform: rotate(0deg); }
 	2% { opacity: 0.8; }
 	4% { opacity: 0.2; }
@@ -95,7 +95,7 @@ body {
 }
 @-o-keyframes orbit-counter-clock-wise {
 	from { -o-transform: rotate(360deg); } to { -o-transform: rotate(0deg); }
-}*/
+}
 @-ms-keyframes orbit-clock-wise {
 	0% { opacity: 0.4; -ms-transform: rotate(0deg); }
 	2% { opacity: 0.8; }
