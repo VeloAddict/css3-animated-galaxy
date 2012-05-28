@@ -93,3 +93,23 @@ body {
 @-ms-keyframes orbit-counter-clock-wise {
 	from { -ms-transform: rotate(360deg); } to { -ms-transform: rotate(0deg); }
 }
+@-o-keyframes orbit-clock-wise {
+	0% { opacity: 0.4; -o-transform: rotate(0deg); }
+	2% { opacity: 0.8; }
+	4% { opacity: 0.2; }
+	5% { opacity: 0.8; }
+	100% { opacity: 0.4; -o-transform: rotate(360deg); }
+}
+@-o-keyframes orbit-counter-clock-wise {
+	from { -o-transform: rotate(360deg); } to { -o-transform: rotate(0deg); }
+}
+@keyframes orbit-clock-wise {
+	0% { opacity: 0.4; transform: rotate(0deg); }
+	2% { opacity: 0.8; }
+	4% { opacity: 0.2; }
+	5% { opacity: 0.8; }
+	100% { opacity: 0.4; transform: rotate(360deg); }
+}
+@keyframes orbit-counter-clock-wise {
+	from { transform: rotate(360deg); } to { transform: rotate(0deg); }
+}
