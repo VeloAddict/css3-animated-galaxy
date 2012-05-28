@@ -47,27 +47,27 @@ body {
 }
 #galaxy .stars-back {
 	background: url('../img/back.png');
+	animation: orbit-clock-wise 440s infinite linear;
 	-webkit-animation: orbit-clock-wise 440s infinite linear;
 	-moz-animation: orbit-clock-wise 440s infinite linear;
 	-ms-animation: orbit-clock-wise 440s infinite linear;
 	-o-animation: orbit-clock-wise 440s infinite linear;
-	animation: orbit-clock-wise 440s infinite linear;
 }
 #galaxy .stars-middle {
 	background: url('../img/middle.png');
+	animation: orbit-counter-clock-wise 360s infinite linear;
 	-webkit-animation: orbit-counter-clock-wise 360s infinite linear;
 	-moz-animation: orbit-counter-clock-wise 360s infinite linear;
 	-ms-animation: orbit-counter-clock-wise 360s infinite linear;
 	-o-animation: orbit-counter-clock-wise 360s infinite linear;
-	animation: orbit-counter-clock-wise 360s infinite linear;
 }
 #galaxy .stars-front {
 	background: url('../img/front.png');
+	animation: orbit-clock-wise 160s infinite linear;
 	-webkit-animation: orbit-clock-wise 160s infinite linear;
 	-moz-animation: orbit-clock-wise 160s infinite linear;
 	-ms-animation: orbit-clock-wise 160s infinite linear;
 	-o-animation: orbit-clock-wise 160s infinite linear;
-	animation: orbit-clock-wise 160s infinite linear;
 }
 @-webkit-keyframes orbit-clock-wise {
 	0% { opacity: 0.4; -webkit-transform: rotate(0deg); }
